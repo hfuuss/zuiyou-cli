@@ -1,6 +1,6 @@
 {
   "name": "@xc/zuiyou-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple CLI for scaffolding zuiyou projects.",
   "preferGlobal": true,
   "bin": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zuiyou/zuiyou-cli.git"
+    "url": "http://git.ixiaochuan.cn/zhanglipeng/zuiyou-cli"
   },
   "keywords": [
     "zuiyou",
@@ -20,9 +20,9 @@
   "author": "jiuyue",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zuiyou/zuiyou-cli/issues"
+    "url": "http://git.ixiaochuan.cn/zhanglipeng/zuiyou-cli"
   },
-  "homepage": "https://github.com/zuiyou/zuiyou-cli#readme",
+  "homepage": "http://git.ixiaochuan.cn/zhanglipeng/zuiyou-cli",
   "scripts": {
     "test": "npm run lint && npm run e2e",
     "lint": "eslint test/e2e/test*.js lib bin/* --env mocha",
